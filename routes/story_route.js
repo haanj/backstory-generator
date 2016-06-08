@@ -2,7 +2,6 @@
 module.exports = (router) => {
   router.route('/stories')
     .get((req, res) => {
-      res.json('hello world')
+      res.json(require('../library/generator')('dwarf'))
     })
-
 }

@@ -1,0 +1,22 @@
+race
+occupation
+
+hair color
+eye color
+relative size/build (to race)
+
+life experience/trauma?
+
+parent's wealth
+father's occupation
+mother's occupation
+
+home city size
+
+likes
+
+dislikes
+
+starting quest(s?)
+
+motivations
