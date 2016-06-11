@@ -42,15 +42,18 @@ module.exports = () => {
       'exercise',
       'healing'
     ]
-  let indexOne = Math.floor(Math.random() * list.length)
+  //let indexOne = Math.floor(Math.random() * list.length)
 
-  do {
-    var indexTwo = Math.floor(Math.random() * list.length)
-  } while (indexOne == indexTwo)
+  //do {
+    //var indexTwo = Math.floor(Math.random() * list.length)
+  //} while (indexOne == indexTwo)
 
-  do {
-    var indexThree = Math.floor(Math.random() * list.length)
-  } while (indexThree == indexOne || indexThree == indexOne)
+  //do {
+    //var indexThree = Math.floor(Math.random() * list.length)
+  //} while (indexThree == indexOne || indexThree == indexOne)
   
-  return [list[indexOne], list[indexTwo], list[indexThree]]
+  //return [list[indexOne], list[indexTwo], list[indexThree]]
+  
+  let index = Math.floor(Math.random() * list.length);
+  return list[index];
 }
